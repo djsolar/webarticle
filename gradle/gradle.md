@@ -32,4 +32,4 @@ Description
 14. gradle -q tasks --all 执行 gradle tasks 会列出项目中所有任务。这会显示项目中所有的默认任务以及每个任务的描述, 用-all 参数来收集更多任务信息
 15. gradle -q dependencies api:dependencies webapp:dependencies 会列出项目的依赖列表，所有依赖会根据任务区分，以树型结构展示出来当然你可以通过--configuration 参数来查看 指定构建任务的依赖情况 gradle -q api:dependencies --configuration testCompile
 16. gradle -q api:properties 可以查看指定项目的所有的属性
-17. 
+17. gradle --gui 打开gradle的图形界面
